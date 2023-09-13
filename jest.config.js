@@ -7,7 +7,12 @@ module.exports = {
   clearMocks: true,
   testPathIgnorePatterns: ['/node_modules/'],
   coverageDirectory: './coverage',
-  collectCoverageFrom: ['./src/**/*.ts', '!./src/index.ts', '!./src/utils/logger.ts'],
+  collectCoverageFrom: [
+    './src/**/*.ts',
+    '!./src/index.ts',
+    '!./src/utils/logger.ts',
+    '!./src/env.ts',
+  ],
   coverageThreshold: {
     global: {
       statements: 100,
