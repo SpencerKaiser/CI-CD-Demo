@@ -6,7 +6,6 @@ import { logger } from './utils/logger';
 const app = express();
 
 const port = Number(env.port ?? '') || 3000;
-const dev = env.nodeEnv === 'development';
 
 void (async () => {
   logger.info('App starting...');
