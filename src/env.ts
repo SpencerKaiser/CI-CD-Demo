@@ -3,7 +3,7 @@ import setEnv from '@americanairlines/simple-env';
 
 config();
 
-export const env = setEnv({
+export const env setEnv({
   required: {
     nodeEnv: 'NODE_ENV',
     port: 'PORT',
