@@ -1,0 +1,5 @@
+.gitkeep
+.github
+dist
+coverage
+cspell.json

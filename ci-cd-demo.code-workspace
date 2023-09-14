@@ -1,0 +1,36 @@
+{
+  "folders": [
+    {
+      "name": "root",
+      "path": "."
+    }
+  ],
+  "extensions": {
+    "recommendations": [
+      "orta.vscode-jest",
+      "esbenp.prettier-vscode",
+      "miaonster.vscode-tsx-arrow-definition",
+      "dbaeumer.vscode-eslint",
+      "streetsidesoftware.code-spell-checker",
+      "mikestead.dotenv",
+      "yoavbls.pretty-ts-errors"
+    ]
+  },
+  "settings": {
+    "eslint.workingDirectories": [],
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "packages/*/*": true
+    },
+    "typescript.tsdk": "root/node_modules/typescript/lib",
+    "jest.jestCommandLine": "yarn jest",
+    "cSpell.enabled": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true
+  }
+}
