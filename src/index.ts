@@ -18,7 +18,7 @@ void (async () => {
 })()
   .then(() => {
     app.listen(port, () => {
-      logger.info(`🚀 Listening at http://localhost:${port}`);
+      logger.alert(`🚀 Listening at http://localhost:${port}`);
     });
   })
   .catch((error) => {
