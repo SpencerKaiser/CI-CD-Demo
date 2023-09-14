@@ -2,3 +2,4 @@
 .github
 dist
 coverage
+cspell.json
