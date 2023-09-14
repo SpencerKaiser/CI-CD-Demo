@@ -14,7 +14,9 @@
     "prettier": "prettier -cu \"**/*\"",
     "prettier:fix": "yarn prettier --write",
     "spellcheck": "yarn cspell --no-progress .",
-    "clean": "rimraf dist coverage"
+    "clean": "rimraf dist coverage",
+    "docker:build": "docker build . --tag ci-cd-demo",
+    "docker:run": "docker rm -f ci-cd-demo && docker run -p 3001:8080 --name ci-cd-demo ci-cd-demo"
   },
   "dependencies": {
     "@americanairlines/simple-env": "^1.0.4",

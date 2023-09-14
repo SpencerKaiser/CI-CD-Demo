@@ -30,7 +30,6 @@ CI-CD Demo is containerized to make deployment efficient and to prevent vendor-d
 #### Building and Running Docker Locally
 
 1. Installing relevant dependencies
-1. Duplicate `.env.docker.sample` as `.env.docker` and modify values as needed
 1. Downloading [Docker Desktop](https://docs.docker.com/desktop/) and start it
    - Optionally modify `Settings > Resources > Advanced` to provide more resources to Docker and speed up your build commands
 1. Run `yarn docker:build` from the root to build your image
@@ -39,7 +38,7 @@ CI-CD Demo is containerized to make deployment efficient and to prevent vendor-d
 
 ##### Environment Variables
 
-`.env.local` is used as the base for all environment variables but `.env.docker` will override any specified environment variables as needed.
+`.env.local` is used as the base for all environment variables.
 
 ###### Troubleshooting
 
