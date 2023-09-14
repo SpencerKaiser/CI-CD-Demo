@@ -31,7 +31,6 @@
     "cSpell.enabled": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnPaste": true,
-    "editor.formatOnSave": true,
-    "cSpell.words": ["unauthed"]
+    "editor.formatOnSave": true
   }
 }

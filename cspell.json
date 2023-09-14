@@ -1,5 +1,16 @@
 {
-  "ignorePaths": [],
-  "words": ["americanairlines", "emerg"],
+  "ignorePaths": [
+    "./coverage",
+    "./ci-cd-demo.code-workspace",
+    "./package.json",
+    "./tsconfig.json",
+    "./tsconfig.build.json"
+  ],
+  "words": [
+    "americanairlines",
+    "cicd",
+    "emerg",
+    "unauthed"
+  ],
   "enabled": true
 }
